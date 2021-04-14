@@ -120,5 +120,5 @@ xmlhttp.onreadystatechange = function () {
   }
 };
 
-xmlhttp.open("GET", "/scripts/data.txt", true);
+xmlhttp.open("GET", "/profileTest/scripts/data.txt", true);
 xmlhttp.send();
