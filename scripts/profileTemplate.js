@@ -6,28 +6,34 @@ xmlhttp.onreadystatechange = function () {
 
     //for (var x = 0; x < myObj.data.length; x++) {
     $(document).ready(function () {
-      if (window.location.href == 'https://bendavis91.github.io/profileTest/testerProfile.html') {
-
-        document.getElementById("demo1").innerHTML = myObj.data[0].name;
-        document.getElementById("demo2").innerHTML = myObj.data[0].major;
-        document.getElementById("demo3").innerHTML = myObj.data[0].city;
-        document.getElementById("demo4").innerHTML = myObj.data[0].aboutMe;
-        document.getElementById("demo5").innerHTML = myObj.data[0].url;
-
-      }else if(window.location.href == 'https://bendavis91.github.io/profileTest/testerProfile2.html'){
-       
-        document.getElementById("demo1").innerHTML = myObj.data[1].name;
-        document.getElementById("demo2").innerHTML = myObj.data[1].major;
-        document.getElementById("demo3").innerHTML = myObj.data[1].city;
-        document.getElementById("demo4").innerHTML = myObj.data[1].aboutMe;
-        document.getElementById("demo5").innerHTML = myObj.data[1].url;
-      }else if(window.location.href == 'https://bendavis91.github.io/profileTest/testerProfile3.html'){
+      if (window.location.href == 'https://bendavis91.github.io/profileTest/luan-dev-profile.html') {
         
-        document.getElementById("demo1").innerHTML = myObj.data[2].name;
-        document.getElementById("demo2").innerHTML = myObj.data[2].major;
-        document.getElementById("demo3").innerHTML = myObj.data[2].city;
-        document.getElementById("demo4").innerHTML = myObj.data[2].aboutMe;
-        document.getElementById("demo5").innerHTML = myObj.data[2].url;
+        document.getElementById("name").innerHTML = myObj.devProfiles[0].name;
+        document.getElementById("major").innerHTML = myObj.devProfiles[0].major;
+        document.getElementById("concentration").innerHTML = myObj.devProfiles[0].concentration;
+        document.getElementById("degree").innerHTML = myObj.devProfiles[0].degree;
+        document.getElementById("languages").innerHTML = myObj.devProfiles[0].skills.languages;
+        document.getElementById("frameworks").innerHTML = myObj.devProfiles[0].skills.frameworks;
+        document.getElementById("database").innerHTML = myObj.devProfiles[0].skills.database;
+        document.getElementById("position").innerHTML = myObj.devProfiles[0].skills.position;
+        document.getElementById("description").innerHTML = myObj.devProfiles[0].description;
+        document.getElementById("email").innerHTML = myObj.devProfiles[0].email;
+        document.getElementById("githubProfile").innerHTML = myObj.devProfiles[0].githubProfile;
+
+      }else if(window.location.href == 'https://bendavis91.github.io/profileTest/davis-dev-profile.html'){
+       
+        document.getElementById("name").innerHTML = myObj.devProfiles[1].name;
+        document.getElementById("major").innerHTML = myObj.devProfiles[1].major;
+        document.getElementById("concentration").innerHTML = myObj.devProfiles[1].concentration;
+        document.getElementById("degree").innerHTML = myObj.devProfiles[1].degree;
+        document.getElementById("languages").innerHTML = myObj.devProfiles[1].skills.languages;
+        document.getElementById("frameworks").innerHTML = myObj.devProfiles[1].skills.frameworks;
+        document.getElementById("database").innerHTML = myObj.devProfiles[1].skills.database;
+        document.getElementById("position").innerHTML = myObj.devProfiles[1].skills.position;
+        document.getElementById("description").innerHTML = myObj.devProfiles[1].description;
+        document.getElementById("email").innerHTML = myObj.devProfiles[1].email;
+        document.getElementById("githubProfile").innerHTML = myObj.devProfiles[1].githubProfile;
+        
       }else{
         console.log("this is not the profile page");
       }
@@ -36,5 +42,5 @@ xmlhttp.onreadystatechange = function () {
   }
 };
 
-xmlhttp.open("GET", "/profileTest/scripts/data.txt", true);
+xmlhttp.open("GET", "/profileTest/scripts/devs-data.txt", true);
 xmlhttp.send();
