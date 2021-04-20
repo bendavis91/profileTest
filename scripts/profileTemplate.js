@@ -80,7 +80,7 @@ xmlhttp.onreadystatechange = function () {
 
     //for (var x = 0; x < myObj.data.length; x++) {
     $(document).ready(function () {
-      if (window.location.pathname == '/testerProfile.html') {
+      if (window.location.pathname == 'https://bendavis91.github.io/profileTest/testerProfile.html') {
 
         document.getElementById("demo1").innerHTML = myObj.data[0].name;
         document.getElementById("demo2").innerHTML = myObj.data[0].major;
@@ -88,14 +88,14 @@ xmlhttp.onreadystatechange = function () {
         document.getElementById("demo4").innerHTML = myObj.data[0].aboutMe;
         document.getElementById("demo5").innerHTML = myObj.data[0].url;
 
-      }else if(window.location.pathname == '/testerProfile2.html'){
+      }else if(window.location.pathname == 'https://bendavis91.github.io/profileTest/testerProfile2.html'){
        
         document.getElementById("demo1").innerHTML = myObj.data[1].name;
         document.getElementById("demo2").innerHTML = myObj.data[1].major;
         document.getElementById("demo3").innerHTML = myObj.data[1].city;
         document.getElementById("demo4").innerHTML = myObj.data[1].aboutMe;
         document.getElementById("demo5").innerHTML = myObj.data[1].url;
-      }else if(window.location.pathname == '/testerProfile3.html'){
+      }else if(window.location.pathname == 'https://bendavis91.github.io/profileTest/testerProfile3.html'){
         
         document.getElementById("demo1").innerHTML = myObj.data[2].name;
         document.getElementById("demo2").innerHTML = myObj.data[2].major;
