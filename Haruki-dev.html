@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Haruki's Profile</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    #name {
+      font-size: 50px;
+    }
+
+    #major, #degree, #concentration, #frameworks, #languages, #database, #position, #email, #githubProfile {
+      font-size: 17px;
+    }
+    #description{
+      font-size: 20px;
+    }
+   
+
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Profile</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"> CIS 486</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron">
+    <div class="container text-center">
+      <div id="name"></div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-3 text-center">
+    <h2>About Me</h2><br>
+    <div class="row">
+      <div class="col-sm-3">
+        <h3>Major:</h3>
+        <div id="major"></div>
+      
+      </div>
+      <div class="col-sm-3">
+        <h3>Skills</h3>
+        <h3>Languages:</h3><div id="languages"></div>
+        
+      </div>
+      <div class="col-sm-3">
+        <h3>Description</h3><div id="description"></div>
+        
+      </div>
+      <div class="col-sm-3">
+        <h3>Contact Information</h3>
+        <h4>Email:</h4>
+        <div id="email"></div>
+      </div>
+    </div>
+  </div><br>
+
+  <div class="container-fluid bg-3 text-center">
+    <div class="row">
+      <div class="col-sm-3">
+        <h3>Concentration:</h3>
+        <div id="concentration"></div>
+        
+      </div>
+      <div class="col-sm-3">
+        <h3>Frameworks:</h3><div id="frameworks"></div>
+        
+      </div>
+      <div class="col-sm-3">
+        <!--didn't use, modify as you see fit for your profile-->
+       
+      </div>
+      <div class="col-sm-3">
+        <h4>GitHub Profile:</h4>
+        <div id="githubProfile"></div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid bg-3 text-center">
+    <div class="row">
+      <div class="col-sm-3">
+        <h3>Degree:</h3>
+        <div id="degree"></div>
+      </div>
+      <div class="col-sm-3">
+        <h3>Database:</h3><div id="database"></div>
+        <h3>Position:</h3><div id="position"></div>
+        
+      </div>
+      <div class="col-sm-3">
+       <!--didn't use, modify as you see fit for your profile-->
+       
+      </div>
+      <div class="col-sm-3">
+        <!--didn't use, modify as you see fit for your profile-->
+        
+      </div>
+    </div>
+  </div><br>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="scripts/profileTemplate.js"></script>
+
+</body>
+
+</html>
