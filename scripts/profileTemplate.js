@@ -34,7 +34,7 @@ xmlhttp.onreadystatechange = function () {
         document.getElementById("email").innerHTML = myObj.devProfiles[1].email;
         document.getElementById("githubProfile").innerHTML = myObj.devProfiles[1].githubProfile;
         
-      }else if(window.location.pathname == '/gant-dev-profile.html'){
+      }else if(window.location.pathname == 'https://bendavis91.github.io/profileTest/gant-dev-profile.html'){
        
         document.getElementById("name").innerHTML = myObj.devProfiles[2].name;
         document.getElementById("major").innerHTML = myObj.devProfiles[2].major;
@@ -48,7 +48,7 @@ xmlhttp.onreadystatechange = function () {
         document.getElementById("email").innerHTML = myObj.devProfiles[2].email;
         document.getElementById("githubProfile").innerHTML = myObj.devProfiles[2].githubProfile;
 
-      }else if(window.location.pathname == '/Estacio-dev-profile.html'){
+      }else if(window.location.pathname == 'https://bendavis91.github.io/profileTest/Estacio-dev-profile.html'){
        
         document.getElementById("name").innerHTML = myObj.devProfiles[3].name;
         document.getElementById("major").innerHTML = myObj.devProfiles[3].major;
@@ -62,7 +62,7 @@ xmlhttp.onreadystatechange = function () {
         document.getElementById("email").innerHTML = myObj.devProfiles[3].email;
         document.getElementById("githubProfile").innerHTML = myObj.devProfiles[3].githubProfile;
 
-      }else if(window.location.pathname == '/humphreys-dev-profile.html'){
+      }else if(window.location.pathname == 'https://bendavis91.github.io/profileTest/humphreys-dev-profile.html'){
        
         document.getElementById("name").innerHTML = myObj.devProfiles[4].name;
         document.getElementById("major").innerHTML = myObj.devProfiles[4].major;
@@ -76,7 +76,7 @@ xmlhttp.onreadystatechange = function () {
         document.getElementById("email").innerHTML = myObj.devProfiles[4].email;
         document.getElementById("githubProfile").innerHTML = myObj.devProfiles[4].githubProfile;
 
-      }else if(window.location.pathname == '/owen-dev-profile.html'){
+      }else if(window.location.pathname == 'https://bendavis91.github.io/profileTest/owen-dev-profile.html'){
        
         document.getElementById("name").innerHTML = myObj.devProfiles[5].name;
         document.getElementById("major").innerHTML = myObj.devProfiles[5].major;
@@ -90,7 +90,7 @@ xmlhttp.onreadystatechange = function () {
         document.getElementById("email").innerHTML = myObj.devProfiles[5].email;
         document.getElementById("githubProfile").innerHTML = myObj.devProfiles[5].githubProfile;
 
-      }else if(window.location.pathname == '/Haruki-dev.html'){
+      }else if(window.location.pathname == 'https://bendavis91.github.io/profileTest/Haruki-dev.html'){
        
         document.getElementById("name").innerHTML = myObj.devProfiles[6].name;
         document.getElementById("major").innerHTML = myObj.devProfiles[6].major;
